@@ -1,0 +1,102 @@
+.SearchWrap{
+    padding: 10px 50px;
+}
+.searchBox{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* background-color: orange; */
+}
+
+.searchInput{
+    width: 300px;
+    height: 40px;
+    background: #FCFCFC;
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 5px rgba(196, 196, 196, 0.58);
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.seachBtn{
+    width: 80px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+
+
+.resultArea{
+    width: 100%;
+    height: 2200px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+.eachBox{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.listImg{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+.clickBtn{
+    position: absolute;
+    right: 70px;
+    bottom: 10%;
+    transform: translateY(50%);
+    width: 80px;
+    height: 25px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #FFFFFF;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.star{
+    position: absolute;
+    width: 35px;
+    right: 20px;
+    bottom: 10%;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+.line{
+    width: 85%;
+    font-size: 20px;
+    /* background-color: orange; */
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    margin-bottom: 5px;
+}
